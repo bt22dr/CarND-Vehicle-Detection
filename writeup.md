@@ -60,3 +60,6 @@ HOG 피쳐를 이용해서 분류기를 학습해서 아래와 같이 대략 98%
 
 ## 3. Video Implementation
 위에서 작성한 이미지 처리 파이프라인을 비디오 영상에 적용해보았다. 결과 영상은 [여기](https://youtu.be/nut9yFeYKUI)에서 찾을 수 있다. False positive 문제를 해결하기 위해 현재 이미지 프레임에서 자동차로 분류된 영역이 이전 이미지 프레임에서도 자동차로 인식된 경우에만 자동차 영역으로 인식하도록 하였다. 
+<div align="left">
+  <a href="https://www.youtube.com/watch?v=nut9yFeYKUI"><img src="https://img.youtube.com/vi/nut9yFeYKUI/0.jpg" alt="IMAGE ALT TEXT"></a>
+</div>
